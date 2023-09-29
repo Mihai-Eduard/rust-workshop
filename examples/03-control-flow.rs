@@ -1,9 +1,11 @@
 fn main() {
     // Declare a variable named `x` 
+    let x = 3;
 
     // Create a scope and declare a variable named `y` in it. Print `x + y` from the scope.
     {
-
+        let y = 5;
+        println!("x + y = {}", x + y);
     };
 
     // Create a scope that returns `x + y` from it, assign it to a variable named `z` and print it.
